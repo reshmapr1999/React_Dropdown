@@ -1,0 +1,15 @@
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(52, 114, 36);
+  
+}.App{
+  margin-left: 15%;
+  margin-top: 10%;
+  align-content: center;
+ 
+}
+
+

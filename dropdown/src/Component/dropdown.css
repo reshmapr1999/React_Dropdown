@@ -1,0 +1,30 @@
+.dropdown_btn{
+    width: 200px;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 3px 3px 10px 6px rgb(116, 175, 121);
+    background-color: white;
+    display: flex;
+    cursor: pointer;
+}
+.dropdown_item{
+    background-color: white;
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.dropitem{
+    background-color: rgb(235, 230, 230);
+    width: 175px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.dropitem:hover{
+    background-color: rgb(138, 228, 142);
+}
+
+    
+    
+   
