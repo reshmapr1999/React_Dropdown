@@ -8,6 +8,8 @@ import { useState } from 'react';
 function Dropdown({items}) {
     const [value,setValue]= useState(null)
     const [isOpen, setIsOpen] = useState(false);
+
+    //To Display dropdown list during hovering of the button 
     const handleMouseEnter = () => {
         setIsOpen(true);
     };
@@ -24,6 +26,7 @@ function Dropdown({items}) {
   return (
     <div className='dropdown' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <h1> Dropdown </h1>
+
         <div className='dropdown_btn'> 
         {value ? (
                     <>
@@ -36,6 +39,8 @@ function Dropdown({items}) {
             <span id="faangledown">{isOpen? <FaAngleUp />:<FaAngleDown />}</span>
         
         </div>
+
+        {/* mapping array */}
         <div>
             { isOpen&& (
         
